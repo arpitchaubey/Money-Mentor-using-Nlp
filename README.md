@@ -10,11 +10,6 @@ Python Libraries - PyTorch, NLTK
 Programming Languages - Python, JavaScript
 
 
-Screenshots 📸
-![Landing page](<Screenshot 2024-03-17 140327.png>)
-![Bot Working](<Screenshot 2024-03-17 140645.png>)
-
-
 How to Launch the Website 🚀
 1.Clone the repository to your local machine.
 
