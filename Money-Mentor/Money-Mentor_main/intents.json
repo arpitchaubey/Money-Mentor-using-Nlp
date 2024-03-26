@@ -1,0 +1,661 @@
+{
+  "intents": [
+    {
+      "tag": "greeting_variants",
+      "patterns": [
+        "Hey there",
+        "What's up?",
+        "Yo",
+        "hi",
+        "Good morning",
+        "Good evening",
+        "Hiya"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi, how can I assist you today?",
+        "Hey, what can I do for you?",
+        "Greetings! How may I help you?",
+        "Hi there! How can I be of assistance?",
+        "Hey, good to see you! What do you need help with?",
+        "I'm here to serve you",
+        "Hii"
+      ]
+    },
+    {
+      "tag": "thanks_variants",
+      "patterns": [
+        "Appreciate it",
+        "Thanks a bunch",
+        "Thank you so much",
+        "Much obliged"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "Anytime!",
+        "You got it!",
+        "No problem, happy to assist!",
+        "My pleasure!"
+      ]
+    },
+    {
+      "tag": "farewell_variants",
+      "patterns": [
+        "Catch you later",
+        "Until next time",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later!",
+        "Take care!",
+        "Farewell, have a wonderful day!",
+        "Until we meet again!",
+        "Stay safe and goodbye!"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "Who are you?",
+        "What's your name?",
+        "Are you a bot?",
+        "What can I call you?"
+      ],
+      "responses": [
+        "I am Money Mentor, your finance assistant.",
+        "You can call me Money Mentor, I'm here to help with your finances.",
+        "I'm Money Mentor, your personal finance guide.",
+        "I go by the name Money Mentor, ready to assist you with your financial queries.",
+        "My name is Money Mentor, and I'm here to provide financial guidance.",
+        "You're speaking with Money Mentor, your trusted source for financial advice."
+      ]
+    },
+    {
+      "tag": "purpose",
+      "patterns": [
+        "What is your purpose?",
+        "Why were you created?",
+        "What can you do for me?"
+      ],
+      "responses": [
+        "I'm here to assist you with your financial queries and help you make informed decisions about your money.",
+        "My purpose is to provide financial guidance and answer your questions about budgeting, saving, investing, and more.",
+        "I'm here to offer financial advice and help you achieve your financial goals.",
+        "My purpose is to empower you with financial knowledge and help you navigate the complexities of personal finance.",
+        "I'm here to help you manage your finances effectively and achieve financial success.",
+        "My purpose is to simplify personal finance and assist you in making sound financial decisions."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who created you?",
+        "Who made you?",
+        "Who's behind Money Mentor?"
+      ],
+      "responses": [
+        "Money Mentor was created by Team Jugadu.",
+        "I was developed by Team Jugadu to assist you with your financial needs.",
+        "Team Jugadu are the brains behind Money Mentor.",
+        "The creators of Money Mentor are Team Jugadu.",
+        "Money Mentor was brought to life by Team Jugadu.",
+        "Team Jugadu are the masterminds behind the creation of Money Mentor."
+      ]
+    },
+    {
+      "tag": "finance_definition",
+      "patterns": [
+        "What is finance?",
+        "Define finance.",
+        "Can you explain finance?"
+      ],
+      "responses": [
+        "Finance is the management of money and other assets. It involves activities such as budgeting, investing, borrowing, lending, and managing risks.",
+        "Finance encompasses the management of funds and assets, covering aspects like budgeting, investing, and risk management.",
+        "Finance is the science of managing money and making informed decisions about investments, savings, and spending.",
+        "Finance is the field that deals with the allocation and management of resources, including money, investments, and assets.",
+        "Finance is the study of how individuals, businesses, and governments manage money, investments, and other financial instruments."
+      ]
+    },
+    {
+      "tag": "debt_definition",
+      "patterns": [
+        "What is debt?",
+        "Define debt.",
+        "Can you explain debt?"
+      ],
+      "responses": [
+        "Debt is an obligation that requires one party, the debtor, to pay money or other agreed-upon value to another party, the creditor. It is typically repaid over time with interest.",
+        "Debt is an amount of money borrowed by one party from another, often with the condition of repayment and interest.",
+        "Debt refers to the amount of money owed by an individual or entity to another party, typically repaid over time with interest.",
+        "Debt is a financial obligation that arises when one party borrows money from another and agrees to repay it, usually with interest.",
+        "Debt is a liability incurred by borrowing money from another party, with the expectation of repayment, often with interest."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help me",
+        "I need assistance",
+        "Can you help me?"
+      ],
+      "responses": [
+        "Of course! I'm here to help. What do you need assistance with?",
+        "Sure, I'm here to assist you. What do you need help with?",
+        "How can I assist you today?",
+        "I'm here to help you. What do you need?",
+        "Don't worry, I'm here to assist you. What can I do for you?",
+        "Sure thing! Let me know how I can assist you."
+      ]
+    },
+    {
+      "tag": "tax_optimization",
+      "patterns": [
+        "How can I optimize my taxes?",
+        "Strategies for minimizing tax liabilities",
+        "Tax-efficient investing techniques"
+      ],
+      "responses": [
+        "Tax optimization involves maximizing contributions to tax-advantaged accounts, utilizing deductions and credits, and strategically timing investments to minimize taxable gains.",
+        "Minimize taxes by contributing to retirement accounts, utilizing tax deductions, and considering tax-loss harvesting strategies.",
+        "Strategically allocate investments to tax-advantaged accounts and utilize tax-efficient investment vehicles to minimize tax liabilities."
+      ]
+    },
+    {
+      "tag": "portfolio_diversification",
+      "patterns": [
+        "What is portfolio diversification?",
+        "How should I diversify my investments?",
+        "Benefits of diversification"
+      ],
+      "responses": [
+        "Portfolio diversification spreads investments across assets, industries, and regions, reducing risk. It helps mitigate losses during market downturns and improves long-term returns.",
+        "Diversify by investing in different asset classes like stocks, bonds, and real estate to minimize risk. Rebalance regularly to maintain desired asset allocation.",
+        "Benefits of diversification include risk reduction, smoother portfolio performance, and potential for higher returns by capitalizing on different market opportunities."
+      ]
+    },
+    {
+      "tag": "estate_planning",
+      "patterns": [
+        "What is estate planning?",
+        "Importance of estate planning",
+        "Estate planning basics"
+      ],
+      "responses": [
+        "Estate planning ensures assets transfer efficiently after death. It includes wills, trusts, and powers of attorney to minimize taxes and distribute assets according to wishes.",
+        "Importance of estate planning lies in preserving wealth, minimizing taxes, and ensuring assets pass to intended beneficiaries according to the wishes of the deceased.",
+        "Estate planning basics involve creating a will, establishing trusts, and designating beneficiaries for assets to ensure a smooth transfer of wealth and minimize tax implications."
+      ]
+    },
+    {
+      "tag": "retirement_income_planning",
+      "patterns": [
+        "How can I plan for retirement income?",
+        "Creating a retirement income strategy",
+        "Strategies for generating retirement income"
+      ],
+      "responses": [
+        "Retirement income planning involves assessing sources like pensions, Social Security, and investments. Strategies include annuities, systematic withdrawals, and tax-efficient distributions.",
+        "Create a retirement income strategy by estimating expenses, maximizing savings, and diversifying income sources through pensions, Social Security, and investment withdrawals.",
+        "Strategies for generating retirement income include building a diversified investment portfolio, optimizing Social Security benefits, and considering annuities or other guaranteed income sources."
+      ]
+    },
+    {
+      "tag": "long_term_care_planning",
+      "patterns": [
+        "What is long-term care planning?",
+        "Why is long-term care insurance important?",
+        "Planning for healthcare costs in retirement"
+      ],
+      "responses": [
+        "Long-term care planning prepares for medical expenses in aging. It includes insurance, setting funds aside, and considering Medicaid to ensure financial stability.",
+        "Long-term care insurance is vital for covering healthcare costs in retirement, protecting savings from being depleted by medical expenses, and ensuring financial security.",
+        "Planning for healthcare costs in retirement involves considering long-term care insurance, setting aside funds for medical expenses, and exploring Medicaid eligibility to maintain financial stability."
+      ]
+    },
+    {
+      "tag": "asset_allocation_strategies",
+      "patterns": [
+        "How should I allocate my assets?",
+        "Asset allocation techniques",
+        "Balancing risk and return in asset allocation"
+      ],
+      "responses": [
+        "Asset allocation divides investments among stocks, bonds, and cash. Strategies include strategic allocation and dynamic adjustments based on market conditions for optimal risk management and returns.",
+        "Allocate assets based on risk tolerance, time horizon, and financial goals. Diversify across asset classes to balance risk and return, adjusting allocation as needed.",
+        "Balancing risk and return in asset allocation involves diversifying investments across different asset classes, adjusting allocations based on market conditions, and periodically rebalancing to maintain desired risk levels."
+      ]
+    },
+    {
+      "tag": "behavioral_finance_insights",
+      "patterns": [
+        "What is behavioral finance?",
+        "Understanding investor psychology",
+        "Overcoming cognitive biases in investing"
+      ],
+      "responses": [
+        "Behavioral finance studies psychological factors affecting decisions. It explores biases and emotions influencing investment outcomes, helping investors make more rational choices.",
+        "Understanding investor psychology is crucial for making informed decisions. Behavioral finance studies how emotions, biases, and cognitive errors influence investment behavior.",
+        "Overcoming cognitive biases in investing requires awareness and discipline. Behavioral finance provides insights into common biases and strategies to mitigate their impact on investment decisions."
+      ]
+    },
+    {
+      "tag": "alternative_investments",
+      "patterns": [
+        "What are alternative investments?",
+        "Types of alternative assets",
+        "Adding alternative investments to portfolio"
+      ],
+      "responses": [
+        "Alternative investments like hedge funds and real estate offer diversification. They have unique risk-return profiles, enhancing portfolio stability and potential returns beyond traditional assets like stocks and bonds.",
+        "Consider adding alternative assets like private equity or commodities to your portfolio for diversification. These investments can provide uncorrelated returns and reduce overall portfolio risk.",
+        "Adding alternative investments like venture capital or collectibles to your portfolio can provide diversification benefits and potentially higher returns, but they also come with unique risks and liquidity considerations."
+      ]
+    },
+    {
+      "tag": "debt_management",
+      "patterns": [
+        "How can I manage my debt?",
+        "Strategies for debt repayment",
+        "Debt consolidation options"
+      ],
+      "responses": [
+        "Managing debt involves creating a budget, prioritizing payments, negotiating lower interest rates, and considering debt consolidation or refinancing options.",
+        "To manage debt effectively, prioritize high-interest debts, consider debt consolidation or refinancing, and avoid taking on new debt.",
+        "Strategies for debt repayment include the snowball method, avalanche method, and debt consolidation loans. Choose the approach that best fits your financial situation."
+      ]
+    },
+    {
+      "tag": "tax_planning",
+      "patterns": [
+        "How can I plan for taxes?",
+        "Tax planning strategies",
+        "Maximizing tax deductions"
+      ],
+      "responses": [
+        "Tax planning involves understanding tax laws, maximizing deductions, utilizing tax-advantaged accounts, and strategic timing of income and deductions to minimize tax liabilities.",
+        "Strategies for tax planning include maximizing contributions to retirement accounts, utilizing tax credits and deductions, and managing capital gains and losses.",
+        "Maximize tax deductions by contributing to retirement accounts, utilizing health savings accounts, and deducting eligible expenses like mortgage interest and charitable donations."
+      ]
+    },
+    {
+      "tag": "loan_management",
+      "patterns": [
+        "How should I manage my loans?",
+        "Loan repayment strategies",
+        "Consolidating loans"
+      ],
+      "responses": [
+        "Manage loans by prioritizing high-interest debts, making extra payments when possible, exploring loan consolidation or refinancing options, and avoiding unnecessary borrowing.",
+        "Strategies for loan repayment include the debt avalanche method, snowball method, and making biweekly payments to reduce interest costs and pay off loans faster.",
+        "Consolidating loans can simplify payments, lower interest rates, and reduce monthly payments, but it's essential to weigh the pros and cons and consider the impact on overall interest costs."
+      ]
+    },
+    {
+      "tag": "investment_strategies",
+      "patterns": [
+        "What are effective investment strategies?",
+        "Investment portfolio management",
+        "Balancing risk and return in investments"
+      ],
+      "responses": [
+        "Effective investment strategies include diversification, asset allocation, regular portfolio rebalancing, and investing for the long term.",
+        "Manage your investment portfolio by diversifying across asset classes, regularly reviewing and rebalancing allocations, and staying disciplined during market fluctuations.",
+        "Balancing risk and return in investments involves diversifying across asset classes, understanding your risk tolerance, and aligning investments with your financial goals and time horizon."
+      ]
+    },
+    {
+      "tag": "budgeting",
+      "patterns": [
+        "How can I create an effective budget?",
+        "Budgeting techniques",
+        "Managing expenses"
+      ],
+      "responses": [
+        "Create an effective budget by tracking expenses, setting financial goals, prioritizing spending, and adjusting your budget as needed.",
+        "Budgeting techniques include the 50/30/20 rule, zero-based budgeting, and envelope budgeting. Choose the method that best fits your financial situation and goals.",
+        "Manage expenses by identifying needs versus wants, finding ways to reduce discretionary spending, and prioritizing essential expenses within your budget."
+      ]
+    },
+    {
+      "tag": "ServiceNow",
+      "patterns": [
+        "What is ServiceNow?",
+        "What is a Service Now request?",
+        "Service Now request"
+      ],
+      "responses": [
+        "Found on /intranet it allows you to make service requests, gain access to applications, submit software installation requests, etc."
+      ]
+    },
+    {
+      "tag": "Status20",
+      "patterns": [
+        "What does status 20 mean?",
+        "Status 20",
+        "What is status 20"
+      ],
+      "responses": [
+        "Status 20 (loan) means a new loan application has been created"
+      ]
+    },
+    {
+      "tag": "Status29",
+      "patterns": [
+        "What does status 29 mean?",
+        "Status 29",
+        "What is status 29"
+      ],
+      "responses": [
+        "Status 29 (loan) means a new loan application has been cancelled"
+      ]
+    },
+    {
+      "tag": "Status30",
+      "patterns": [
+        "What does status 30 mean?",
+        "Status 320",
+        "What is status 30"
+      ],
+      "responses": [
+        "Status 30 (loan) means that the contract offer has been created"
+      ]
+    },
+    {
+      "tag": "Status39",
+      "patterns": [
+        "What does status 39 mean?",
+        "Status 39",
+        "What is status 39"
+      ],
+      "responses": [
+        "Status 39 (loan) means the contract offer has been cancelled"
+      ]
+    },
+    {
+      "tag": "Status40",
+      "patterns": [
+        "What does status 40 mean?",
+        "Status 40",
+        "What is status 40"
+      ],
+      "responses": [
+        "Status 40 (loan) means that the loan contract has been created"
+      ]
+    },
+    {
+      "tag": "Status49",
+      "patterns": [
+        "What does status 49 mean?",
+        "Status 49",
+        "What is status 49"
+      ],
+      "responses": [
+        "Status 49 (loan) means the contract has been cancelled"
+      ]
+    },
+    {
+      "tag": "Status50",
+      "patterns": [
+        "What does status 50 mean?",
+        "Status 50",
+        "What is status 50"
+      ],
+      "responses": [
+        "Status 50 (loan) means that the application is under review of the underwriter"
+      ]
+    },
+    {
+      "tag": "Status54",
+      "patterns": [
+        "What does status 54 mean?",
+        "Status 54",
+        "What is status 54"
+      ],
+      "responses": [
+        "Status 54 (loan) means that the application is in credit review"
+      ]
+    },
+    {
+      "tag": "Status55",
+      "patterns": [
+        "What does status 55 mean?",
+        "Status 55",
+        "What is status 55"
+      ],
+      "responses": [
+        "Status 55 (loan) means the credit review has been completed"
+      ]
+    },
+    {
+      "tag": "Status60",
+      "patterns": [
+        "What does status 60 mean?",
+        "Status 60",
+        "What is status 60"
+      ],
+      "responses": [
+        "Status 60 (loan) means that the requisition has been received"
+      ]
+    },
+    {
+      "tag": "Status70",
+      "patterns": [
+        "What does status 70 mean?",
+        "Status 70",
+        "What is status 70"
+      ],
+      "responses": [
+        "Status 70 (loan) means documents are incomplete for conventional loans."
+      ]
+    },
+    {
+      "tag": "Status71",
+      "patterns": [
+        "What does status 71 mean?",
+        "Status 71",
+        "What is status 71"
+      ],
+      "responses": [
+        "Status 70 (loan) means documents are complete for conventional loans."
+      ]
+    },
+    {
+      "tag": "Status75",
+      "patterns": [
+        "What does status 75 mean?",
+        "Status 75",
+        "What is status 75"
+      ],
+      "responses": [
+        "Status 75 (loan) means application is under legal action"
+      ]
+    },
+    {
+      "tag": "Status76",
+      "patterns": [
+        "What does status 76 mean?",
+        "Status 76",
+        "What is status 76"
+      ],
+      "responses": [
+        "Status 76 (loan) means real estate is in possession"
+      ]
+    },
+    {
+      "tag": "Status80",
+      "patterns": [
+        "What does status 80 mean?",
+        "Status 80",
+        "What is status 80"
+      ],
+      "responses": [
+        "Status 80 (loan) means documents incomplete for securitized loans."
+      ]
+    },
+    {
+      "tag": "Status81",
+      "patterns": [
+        "What does status 81 mean?",
+        "Status 81",
+        "What is status 81"
+      ],
+      "responses": [
+        "Status 81 (loan) means documents complete for securitized loans."
+      ]
+    },
+    {
+      "tag": "Status85",
+      "patterns": [
+        "What does status 85 mean?",
+        "Status 85",
+        "What is status 85"
+      ],
+      "responses": [
+        "Status 85 (loan) means securitized loan is in legal action."
+      ]
+    },
+    {
+      "tag": "Status86",
+      "patterns": [
+        "What does status 86 mean?",
+        "Status 86",
+        "What is status 86"
+      ],
+      "responses": [
+        "Status 86 (loan) means customer is in possession of securitized loan"
+      ]
+    },
+    {
+      "tag": "Status90",
+      "patterns": [
+        "What does status 90 mean?",
+        "Status 90",
+        "What is status 70"
+      ],
+      "responses": [
+        "Status 90 (loan) means documents incomplete for discharged loans."
+      ]
+    },
+    {
+      "tag": "Status91",
+      "patterns": [
+        "What does status 91 mean?",
+        "Status 91",
+        "What is status 91"
+      ],
+      "responses": [
+        "Status 91 (loan) means documents complete for discharged loans."
+      ]
+    },
+    {
+      "tag": "Status92",
+      "patterns": [
+        "What does status 92 mean?",
+        "Status 92",
+        "What is status 92"
+      ],
+      "responses": [
+        "Status 92 (loan) means that the loan has been funded externally"
+      ]
+    },
+    {
+      "tag": "Status93",
+      "patterns": [
+        "What does status 93 mean?",
+        "Status 93",
+        "What is status 93"
+      ],
+      "responses": [
+        "Status 93 (loan) means loan has been sold through external servicing"
+      ]
+    },
+    {
+      "tag": "Status98",
+      "patterns": [
+        "What does status 98 mean?",
+        "Status 98",
+        "What is status 98"
+      ],
+      "responses": [
+        "Status 98 (loan) means loan has been completed"
+      ]
+    },
+    {
+      "tag": "LTV",
+      "patterns": [
+        "What is LTV?",
+        "LTV?",
+        "What is one of the factors that will change the LTV %?"
+      ],
+      "responses": [
+        "LTV stands for Loan-to-Value ratio. You would divide the mortgage amount over the property value.",
+        "Loan-to-Value ratio (LTV): factors like mortgage amount and property affect this %."
+      ]
+    },
+    {
+      "tag": "TDS",
+      "patterns": [
+        "What is TDS?",
+        "TDS?",
+        "What is one of the factors that will change the TDS %?"
+      ],
+      "responses": [
+        "TDS stands for Total Debt Service. It's the % of your income needed to cover all your debts"
+      ]
+    },
+    {
+      "tag": "CBS",
+      "patterns": [
+        "What is CBS?",
+        "CBS",
+        "What is the range of CBS scores?"
+      ],
+      "responses": [
+        "CBS stands for Credit Bureau Score. Its rating ranges from 300 to 900. Usually a score of 600+ is considered to be good."
+      ]
+    },
+    {
+      "tag": "SAP application",
+      "patterns": [
+        "What SAP applications should I use for updating CBS?",
+        "SAP applications?",
+        "SAP application",
+        "SAP app",
+        "applications",
+        "SAP"
+      ],
+      "responses": [
+        "1. Finding loan details: Manage Loan Contract \n  2.Updation of CBS/MOS: Maintain BP \n      3. Link a property to an existing loan: Property \n      4. Creation of a new loan contract: Create Mortgage contract"
+      ]
+    },{
+      "tag": "stocks",
+      "patterns": [
+        "What are stocks?",
+        "How do stocks work?",
+        "Investing in stocks",
+        "Stock market basics",
+        "What factors influence stock prices?",
+        "How can I analyze stocks?",
+        "Types of stock investments",
+        "What are dividends?",
+        "How are stock prices determined?",
+        "tell me about stocks?"
+      ],
+      "responses": [
+        "Stocks represent ownership in a company. When you buy a stock, you're buying a small piece of that company.",
+        "Stocks work by allowing investors to buy shares of ownership in a company. The value of stocks fluctuates based on factors such as company performance, market conditions, and investor sentiment.",
+        "Investing in stocks involves buying shares of publicly traded companies with the expectation that their value will increase over time, allowing investors to profit from capital appreciation and dividends.",
+        "Stock market basics include understanding how stocks are bought and sold, how stock prices are determined, and the role of supply and demand in influencing stock prices.",
+        "Stock prices are influenced by various factors such as company earnings, economic indicators, market trends, geopolitical events, and investor sentiment.",
+        "Stock analysis involves fundamental analysis, which assesses a company's financial health and business prospects, and technical analysis, which examines historical price movements and trading patterns.",
+        "Types of stock investments include common stocks, preferred stocks, blue-chip stocks, growth stocks, value stocks, and dividend stocks, each with different risk and return characteristics.",
+        "Dividends are payments made by companies to their shareholders as a portion of their profits. They can provide a steady income stream to investors and are typically paid quarterly.",
+        "Stock prices are determined by supply and demand in the market. When more people want to buy a stock (demand) than sell it (supply), the price tends to rise, and vice versa."
+      ]
+    }
+    
+  ]
+}
